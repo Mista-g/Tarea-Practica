@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortunato Casino</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <header class="header">
+        <div class="logo">Logotipo</div>
+        <nav class="nav-menu">
+          <a href="#" class="nav-link active">Inicio</a>
+          <a href="#" class="nav-link">Casino</a>
+          <a href="#" class="nav-link">Deportes</a>
+        </nav>
+        <div class="header-buttons">
+          <button class="search-button">🔍</button>
+          <button class="btn btn-outline">Iniciar Sesión</button>
+          <button class="btn btn-primary">Registrarse</button>
+        </div>
+    </header>
+    <div class="main-content">
+        <h1>Fortunato Casino</h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Sit blandit orci ultrices magna in. Sodales sed tellus egestas commodo. Volutpat ac quam ullamcorper viverra scelerisque sagittis. Tristique fringilla cras tellus volutpat feugiat adipiscing.</p>
+        <a href="#" class="cta-button">Jugar Ahora</a>
+    </div>
+    <div class="carousel-container">
+        <h2>Destacados</h2>
+        <div class="carousel">
+            <img src="images/imagen1.jpg" alt="Juego 1"class="carousel-image">
+            <img src="images/imagen2.jpg" alt="Juego 2"class="carousel-image">
+            <img src="images/imagen3.jpg" alt="Juego 3"class="carousel-image">
+            <img src="images/imagen4.jpg" alt="Juego 4"class="carousel-image">
+        </div>
+        <h2>Nuevos Juegos</h2>
+        <div class="carousel">
+            <img src="images/imagen5.jpg" alt="Juego 5"class="carousel-image">
+            <img src="images/imagen6.jpg" alt="Juego 6"class="carousel-image">
+            <img src="images/imagen7.jpg" alt="Juego 7"class="carousel-image">
+            <img src="images/imagen8.jpg" alt="Juego 8"class="carousel-image">
+        </div>
+        <h2>Clásicos</h2>
+        <div class="carousel">
+            <img src="images/imagen9.jpg" alt="Juego 9"class="carousel-image">
+            <img src="images/imagen10.jpg" alt="Juego 10"class="carousel-image">
+            <img src="images/imagen11.jpg" alt="Juego 11"class="carousel-image">
+            <img src="images/imagen12.jpg" alt="Juego 12"class="carousel-image">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-box">
+          <h1>Insertar texto de<br>tres líneas<br>aquí</h1>
+          <button class="btn">Obtener Recompensa</button>
+        </div>
+        <div class="gradient-shape"></div>
+      </div>
+
+    <div class="carousel-container">
+        <h2>Todos los Juegos</h2>
+        <div class="carousel">
+            <img src="images/imagen1.jpg" alt="Juego 1" class="carousel-image">
+            <img src="images/imagen2.jpg" alt="Juego 2"class="carousel-image">
+            <img src="images/imagen3.jpg" alt="Juego 3"class="carousel-image">
+            <img src="images/imagen4.jpg" alt="Juego 4"class="carousel-image">
+            <img src="images/imagen5.jpg" alt="Juego 5"class="carousel-image">
+            <img src="images/imagen6.jpg" alt="Juego 6"class="carousel-image">
+            <img src="images/imagen7.jpg" alt="Juego 7"class="carousel-image">
+            <img src="images/imagen8.jpg" alt="Juego 8"class="carousel-image">
+            <img src="images/imagen9.jpg" alt="Juego 9"class="carousel-image">
+            <img src="images/imagen10.jpg" alt="Juego 10"class="carousel-image">
+            <img src="images/imagen11.jpg" alt="Juego 11"class="carousel-image">
+            <img src="images/imagen12.jpg" alt="Juego 12"class="carousel-image">
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                prevArrow: '<button class="slick-prev">❮</button>',
+                nextArrow: '<button class="slick-next">❯</button>'
+            });
+        });
+    </script>
+
+    <div class="bottom-content">
+        <h1>¡Únete ahora y gana!</h1>
+        <p>Multiplicamos tu primer depósito x2</p>
+        <a href="#" class="cta-button">Iniciar Seción</a>
+        <a href="#" class="cta-button">Registrarse</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <a href="#">Logo</a>
+            <p>Lorem ipsum dolor sit amet consectetur. Velit eu commodo odio facilisis mauris turpis eget. Tincidunt elementum sit tincidunt tristique habitant tristique. Morbi lorem sit eget quis facilisis nunc habitant nunc.</p>
+            <p>Síguenos en Redes Sociales</p>
+            <div class="social-media-icons">
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Juegos</h3>
+            <ul>
+                <li><a href="#">Destacados</a></li>
+                <li><a href="#">Nuevos Juegos</a></li>
+                <li><a href="#">Clásicos</a></li>
+                <li><a href="#">Todos los Juegos</a></li>
+                <li><a href="#">Deportes</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Legales</h3>
+            <ul>
+                <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Juego Responsable</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Ayuda</h3>
+            <ul>
+                <li><a href="#">Chat de Soporte Online</a></li>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="#">Reembolsos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>Casino Fortuna© Todos los derechos reservados, 2024.</p>
+            <div class="payment-methods">
+                <img src="images/paypal.png" alt="PayPal">
+                <img src="images/mastercard.png" alt="MasterCard">
+                <img src="images/visa.png" alt="Visa">
+                <img src="images/discover.png" alt="discover">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
